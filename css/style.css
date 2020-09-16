@@ -11,6 +11,11 @@ img {
     padding: 15px;
 }
 
+.img-max {
+    max-width: 500px;
+    width: 100%;
+}
+
 .contact-list { 
     padding: 20px;
     color: teal;
