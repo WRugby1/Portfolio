@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!--Credit for styling and formatting to MDbootstrap-->
   <meta charset="UTF-8">
@@ -21,19 +22,23 @@
 </head>
 <body>
     
-  <div class="container">
+  <div>
     <!-- Nav bar template taken from https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/-->
-    <nav class="navbar navbar-light cyan darken-3">
+    <nav class="navbar navbar-light cyan darken-3 mb-4">
 
         <a class="navbar-brand text-white" href="#">Tanner Austin</a>
 
-        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
-            aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i></i></span></button>
+        <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+    aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="animated-icon1"><span></span><span></span><span></span></div>
+  </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent20">
 
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
                 </li>
@@ -50,9 +55,13 @@
         <img class="img-fluid rounded mx-auto d-block" alt="paddle boarding"
             src="https://cdn.shopify.com/s/files/1/2978/5848/articles/5ecbfcf7886908.82259679__paddle-boarding-austin-11-best-places-2_1900x.jpg?v=1590427040">
     </div>
+    
+    <div class="page-header">
+        <h1>About me!</h1>
+    </div><br>
 
     <p>My name is Tanner Austin, I am a 27 year old Engineer living in Austin, Texas.
-        I love to go boating on Lake Travis, paddle boarding on Ladybird Lake, or try new barbecue spots around
+        I love to go boating on Lake Travis, paddle boarding on Ladybird Lake, or tryiing new barbecue spots around
         town.
         I graduated from Weber State in Manufacturing Engineering, and worked as a robotics engineer for two years.
         I knew software was my ultimate goal, and I had slowly began to teach myself during my time in school.
@@ -67,13 +76,13 @@
 <footer class="page-footer font-small cyan darken-3 fixed-bottom">
 
     <!-- Footer Elements -->
-    <div class="container">
+    <div>
 
         <!-- Grid row-->
         <div class="row">
 
             <!-- Grid column -->
-            <div class="col-md-12 py-5">
+            <div class="col-md-12 py-1">
                 <div class="mb-5 flex-center">
 
                     <!-- Facebook -->
@@ -110,6 +119,7 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript"></script>
+  <script type="text/javascript" src="animate.js"></script>
 
 </body>
 </html>
