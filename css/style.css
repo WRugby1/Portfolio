@@ -1,6 +1,13 @@
 body, html {
     height: 100%;
-    background-image: url("https://lh3.googleusercontent.com/proxy/10S3-BHfllMPH_JZX-zijznGnWXf70V43cL4D50dfFZW5pCWeBJc6uULl8XUGJEdjRXqqnjgdsWaINIdD5aZYYpJH3zm1CqJ7RRhtwXgK-rCj-D-4X1hU93uQ2vUvhYzt91YLBBUJTh-fGEml30Rp-_ixvEHpJ1NARk");
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX16921115.jpg");
+}
+
+.title_header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+     ;font-size: 15mm;
+     color: teal
+     ;
 }
 
 h1 {
@@ -21,7 +28,7 @@ img {
 }
 
 .jumbotron-bkg{
-    background-color: rgb(0, 255, 255, .2);
+    background-color:rgb(0, 128, 128, .3)
 }
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
