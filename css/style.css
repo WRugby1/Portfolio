@@ -3,11 +3,16 @@ body, html {
     background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX16921115.jpg");
 }
 
+#portfolio-cards {
+    margin-bottom: 5px;
+}
+
 img {
     border-style: solid;
     border-width: 5px;
     border-color: black;
-    padding: 10px
+    padding: 10px;
+    margin: 10px
 }
 
 .title_header {
